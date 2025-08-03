@@ -1,0 +1,18 @@
+Playwright-interview-knowledge-notes:
+
+- In Playwright test, page fixture provides a Page object that is available to the test? ans:When using Playwright Test Runner (@playwright/test), a built-in test fixture named page is automatically injected into your test function. It gives you a ready-to-use browser tab (Page object) for interacting with web pages — just like a user would.
+- he await keyword can be used inside  non-async function? ans: No, the await keyword cannot be used inside a non-async function in JavaScript or TypeScript.
+- The keyword await before a function makes the function wait for a promise? yes, true
+- The keyword async before a function makes the function return a promise? ans: yes, true
+- require() is a node js built-in function used to load modules present in separate files? ans: yes, true
+- What function is used to declare tests in Playwright? ans: test
+- Which library is used by Playwright for test assertions? ans: expect
+- Playwright comes with auto-wait built in? ans: yes
+- Playwright provides a test function to declare tests and the expect function to write assertions? ans:
+	I.  test() → to define a test
+	II. expect() → to write assertions
+- command to use for test generator: npx playwright codegen --target javascript -o .\tests\record2_demo.spec.js
+- commands for codegen/test generator: 
+	I. npx playwright codegen
+	II.npx playwright codegen --browser firefox (by default it opens chromium)
+	III.npx playwright codegen --help (to see the help libraries available)
